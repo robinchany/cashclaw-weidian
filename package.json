@@ -1,0 +1,35 @@
+{
+  "name": "cashclaw-weidian",
+  "version": "1.0.0",
+  "description": "AI 自动接单系统 · 微店版 — 虚拟商品自动发货，24小时被动收入",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "ai-agent",
+    "weidian",
+    "micro-store",
+    "automation",
+    "passive-income",
+    "chatgpt",
+    "virtual-goods",
+    "webhook"
+  ],
+  "author": "陈艺明",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

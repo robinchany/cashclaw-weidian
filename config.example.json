@@ -1,0 +1,26 @@
+{
+  "weidian": {
+    "appKey": "你的微店appKey",
+    "appSecret": "你的微店appSecret",
+    "shopId": "你的微店店铺ID",
+    "accessToken": "",
+    "refreshToken": "",
+    "tokenExpireAt": 0
+  },
+  "llm": {
+    "provider": "zhipu",
+    "model": "glm-4-flash",
+    "apiKey": "你的智谱APIKey",
+    "baseUrl": "https://open.bigmodel.cn/api/paas/v4"
+  },
+  "server": {
+    "port": 3001,
+    "webhookPath": "/webhook/weidian",
+    "webhookSecret": "随机字符串作为webhook签名密钥"
+  },
+  "polling": {
+    "enabled": true,
+    "intervalMs": 30000
+  },
+  "services": []
+}

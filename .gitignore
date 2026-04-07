@@ -1,0 +1,14 @@
+# CashClaw 微店版
+node_modules/
+dist/
+config.json
+screenshots/
+.memory/
+*.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
